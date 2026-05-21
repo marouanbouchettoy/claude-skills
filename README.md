@@ -24,9 +24,39 @@ Think of them as reusable "expert modes" you can plug into any Claude session.
 
 ---
 
-## 🚀 How to Add a Skill to Claude
+## 🚀 How to Add Skills to Claude
 
-### Method 1 — Paste into the System Prompt (Claude API)
+---
+
+### ⭐ Method 1 — Upload from Device (Easiest & Fastest)
+
+No coding required. Works directly in [claude.ai](https://claude.ai).
+
+**Step 1 — Download this repo as a ZIP**
+
+Click the green **`<> Code`** button on this GitHub page → **Download ZIP**
+
+Or use this direct link:
+```
+https://github.com/marouanbouchettoy/claude-skills/archive/refs/heads/main.zip
+```
+
+**Step 2 — Extract the ZIP** on your device. You'll get a folder with all the `.skill` files.
+
+**Step 3 — Open Claude.ai and go to the Skills tab**
+
+1. Go to [claude.ai](https://claude.ai)
+2. In the left sidebar, click **Skills**
+3. Click **"Add new skill"** (or the **+** button)
+4. Choose **"Upload from device"**
+5. Select the `.skill` file(s) you want from the extracted folder
+6. Done! ✅ Claude now has access to that skill in your session.
+
+> 💡 **Tip:** You can upload multiple skills one by one to stack them together.
+
+---
+
+### Method 2 — Paste into the System Prompt (Claude API)
 
 1. Copy the contents of any `.skill` file from this repo.
 2. Paste it at the top of your **system prompt** when calling the Claude API.
@@ -52,7 +82,7 @@ print(message.content)
 
 ---
 
-### Method 2 — Use in Claude.ai (Projects)
+### Method 3 — Use in Claude.ai Projects
 
 1. Go to [claude.ai](https://claude.ai) and open or create a **Project**.
 2. Click **"Set instructions"** (the project system prompt area).
@@ -61,7 +91,7 @@ print(message.content)
 
 ---
 
-### Method 3 — Add as a File in Claude Code
+### Method 4 — Add as a File in Claude Code
 
 If you're using [Claude Code](https://claude.ai/code) (the CLI tool):
 
