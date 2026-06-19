@@ -21,6 +21,7 @@ Think of them as reusable "expert modes" you can plug into any Claude session.
 | `file-organizer.skill` | Intelligently organize, rename, and sort files |
 | `redis-development.skill` | Best practices for Redis schema design and development |
 | `sql-to-accdb.skill` | Convert SQL scripts to Microsoft Access (.accdb) format |
+| `github-access.skill` | Perform secure, session-scoped git operations (clone, push, pull, commit) against GitHub repos and orgs using a PAT — never persisted to disk |
 
 ---
 
